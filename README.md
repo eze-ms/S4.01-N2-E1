@@ -7,8 +7,8 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
 ---
 
 ## 💻 Tecnologies Utilitzades
-- Java 17+
-- Spring Boot (versió estable)
+- Java 23
+- Spring Boot 3.4.3
 - Gradle
 - Spring Web
 - Spring Boot DevTools
@@ -18,7 +18,7 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
 ---
 
 ## 📋 Requisits
-- Instal·lar **Java 11 o superior**
+- Instal·lar **Java 23**
 - Instal·lar **Maven** (`mvn -v` per a comprovar)
 - IDE compatible (IntelliJ IDEA, Eclipse)
 - Connexió a Internet per descarregar dependències
@@ -47,9 +47,13 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
 ```
 **Obrir el navegador i provar els endpoints:**
 - http://localhost:9001/HelloWorld
-- http://localhost:9001/HelloWorld?nom=Joan
 - http://localhost:9001/HelloWorld2
+- http://localhost:9001/HelloWorld?name=Joan
 - http://localhost:9001/HelloWorld2/Maria
+
+**Provar el Maneig d'Errors (CustomException)**
+- http://localhost:9001/HelloWorld?name=error
+- http://localhost:9001/HelloWorld2/error
 
 ## 🌐 Desplegament
 1. **Generar el .jar:**
