@@ -11,7 +11,7 @@ public class HelloWorldController {
         if ("error".equalsIgnoreCase(name)) {
             throw new CustomException("Este es un error de prueba");
         }
-        return "Hola, " + name + ". Estàs executant un projecte Maven";
+        return "Hola, " + name + ". Estàs executant un projecte Gradle";
     }
 
     @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
@@ -22,6 +22,6 @@ public class HelloWorldController {
         if ("error".equalsIgnoreCase(name)) {
             throw new CustomException("Este es un error de prueba");
         }
-        return "Hola, " + name + ". Estàs executant un projecte Maven";
+        return "Hola, " + name + ". Estàs executant un projecte Gradle";
     }
 }

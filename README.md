@@ -48,8 +48,8 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
 **Obrir el navegador i provar els endpoints:**
 - http://localhost:9001/HelloWorld
 - http://localhost:9001/HelloWorld2
-- http://localhost:9001/HelloWorld?name=Joan
-- http://localhost:9001/HelloWorld2/Maria
+- http://localhost:9001/HelloWorld?name=Ezequiel
+- http://localhost:9001/HelloWorld2/Ezequiel
 
 **Provar el Maneig d'Errors (CustomException)**
 - http://localhost:9001/HelloWorld?name=error
