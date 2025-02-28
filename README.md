@@ -19,7 +19,6 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
 
 ## 📋 Requisits
 - Instal·lar **Java 23**
-- Instal·lar **Maven** (`mvn -v` per a comprovar)
 - IDE compatible (IntelliJ IDEA, Eclipse)
 - Connexió a Internet per descarregar dependències
 
@@ -41,7 +40,7 @@ L'objectiu és replicar el nivell anterior amb una API REST similar, però fent 
     server.port=9001
 ---
 ## ▶️ Execució
-**Executar l'aplicació amb Maven:**
+**Executar l'aplicació amb Gradle:**
 ```sh
 ./gradlew bootRun
 ```
